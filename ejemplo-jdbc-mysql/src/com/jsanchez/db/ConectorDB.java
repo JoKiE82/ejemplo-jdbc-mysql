@@ -11,7 +11,7 @@ public class ConectorDB
     private static final String _PASS 		= "";    
     private static Connection myConectorDB 	= null;
     
-    private ConectorDB() { } // El arte del silencio (Singlenton).
+    private ConectorDB() { } // El arte del silencio (Singlenton) para la conexión.
     
     /**
      * Contexto de conexión a la BBDD.
