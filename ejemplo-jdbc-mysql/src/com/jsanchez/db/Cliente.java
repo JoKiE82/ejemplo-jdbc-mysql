@@ -470,16 +470,16 @@ WHERE id = ?
 		Cliente insertarCliente = new Cliente
 		(
 				"JOSÉ JOAQUÍN SÁNCHEZ FERNÁNDEZ", 
-				"77711782A", 
-				"AVDA. PIO BAROJA 13, 1A", 
+				"00000000T", 
+				"MI CASA", 
 				"03011", 
 				"MURCIA", 
 				"MURCIA", 
-				"686.889.266", 
+				"666.666.666", 
 				null, 
 				"info@sfsolutions.es", 
-				"El hijo del bombero", 
-				"Es programador y buena gente", 
+				"Alias", 
+				"Observaciones", 
 				true
 		);		
 		System.out.println("el id es: " + insertarCliente.insertCliente());
